@@ -1,0 +1,31 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+		066DA0166573AD84C321D8D2 = {isa = PBXBuildFile; fileRef = B70DCC453B7C0226683AC420; };
+		5EAE01EDC94FB4B78019CB75 = {isa = PBXBuildFile; fileRef = F4EBB3918326B2E6718E4224; };
+		B7A346F114C5E2AD96E55624 = {isa = PBXBuildFile; fileRef = 421ED0824DB698B4F63E77FA; };
+		B70DCC453B7C0226683AC420 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DubForgeApp.swift"; sourceTree = "<group>"; };
+		F4EBB3918326B2E6718E4224 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView.swift"; sourceTree = "<group>"; };
+		421ED0824DB698B4F63E77FA = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF31F3E6804DC8EB2286F9D = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16FB3E44319ED899325882C9 = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "DubForge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E2CDE27A77A8DBA593E6F94 = {isa = PBXGroup; children = (EE0A982ED466C5E949386155, 2764EAAE19982FF63FAD44C9); sourceTree = "<group>"; };
+		EE0A982ED466C5E949386155 = {isa = PBXGroup; children = (B70DCC453B7C0226683AC420, F4EBB3918326B2E6718E4224, 421ED0824DB698B4F63E77FA, FAF31F3E6804DC8EB2286F9D); path = "DubForge"; sourceTree = "<group>"; };
+		2764EAAE19982FF63FAD44C9 = {isa = PBXGroup; children = (16FB3E44319ED899325882C9); name = Products; sourceTree = "<group>"; };
+		5BE4E90073E6838CB1F97D04 = {isa = PBXSourcesBuildPhase; files = (066DA0166573AD84C321D8D2, 5EAE01EDC94FB4B78019CB75); runOnlyForDeploymentPostprocessing = 0; };
+		3CEE70308CF512A1CA252293 = {isa = PBXResourcesBuildPhase; files = (B7A346F114C5E2AD96E55624); runOnlyForDeploymentPostprocessing = 0; };
+		92147DBB79CC987BBD081FC7 = {isa = PBXFrameworksBuildPhase; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		4B3DD031FA1A15B13A7F8C0E = {isa = PBXNativeTarget; buildConfigurationList = E7075A89E5A66ACE4D23C192; buildPhases = (5BE4E90073E6838CB1F97D04, 92147DBB79CC987BBD081FC7, 3CEE70308CF512A1CA252293); buildRules = (); dependencies = (); name = "DubForge"; productName = "DubForge"; productReference = 16FB3E44319ED899325882C9; productType = "com.apple.product-type.application"; };
+		01800252B6C3A8C47C66B087 = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; SDKROOT = macosx; MACOSX_DEPLOYMENT_TARGET = 14.0;  PRODUCT_BUNDLE_IDENTIFIER = "com.appforge.dubforge"; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = "DubForge/Info.plist"; DEBUG_INFORMATION_FORMAT = dwarf; SWIFT_OPTIMIZATION_LEVEL = "-Onone";}; name = Debug; };
+		5D12BA8FD5A54AE167F901FE = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; SDKROOT = macosx; MACOSX_DEPLOYMENT_TARGET = 14.0;  PRODUCT_BUNDLE_IDENTIFIER = "com.appforge.dubforge"; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = "DubForge/Info.plist"; SWIFT_OPTIMIZATION_LEVEL = "-O";}; name = Release; };
+		DACF0EE27AE567D18844F31E = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; SDKROOT = macosx; MACOSX_DEPLOYMENT_TARGET = 14.0;}; name = Debug; };
+		BECE36886102724B3C1F51DB = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; SDKROOT = macosx; MACOSX_DEPLOYMENT_TARGET = 14.0;}; name = Release; };
+		E7075A89E5A66ACE4D23C192 = {isa = XCConfigurationList; buildConfigurations = (01800252B6C3A8C47C66B087, 5D12BA8FD5A54AE167F901FE); defaultConfigurationName = Release; };
+		6C1D76CAD1BE1F076AB7496A = {isa = XCConfigurationList; buildConfigurations = (DACF0EE27AE567D18844F31E, BECE36886102724B3C1F51DB); defaultConfigurationName = Release; };
+		E1609D772466557EEF022603 = {isa = PBXProject; buildConfigurationList = 6C1D76CAD1BE1F076AB7496A; mainGroup = 5E2CDE27A77A8DBA593E6F94; productRefGroup = 2764EAAE19982FF63FAD44C9; targets = (4B3DD031FA1A15B13A7F8C0E); };
+	};
+	rootObject = E1609D772466557EEF022603;
+}

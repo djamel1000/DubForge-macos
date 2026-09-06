@@ -1,0 +1,40 @@
+# macOS and Xcode
+.DS_Store
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.moved-aside
+
+# Python environments and caches
+.venv/
+venv/
+processing/venv/
+processing/ml_venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Local runtime data: imported media, generated clips, models, logs, and settings
+processing/storage/
+processing/logs/
+*.log
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*credentials*.json
+*secret*.json
+
+# Local agent and editor state
+.claude/
+processing/.claude/
+:memory:.ses
+<stdin>
+APPFORGE_IN_PROGRESS.md
+APPFORGE_REQUEST.md

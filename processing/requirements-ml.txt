@@ -1,0 +1,7 @@
+torch==2.13.0
+pyannote.audio==4.0.7
+demucs==4.1.0
+faster-whisper==1.2.1
+# Local Qwen3-TTS inference. Pulls in mlx itself; Apple Silicon only, which is
+# why it lives here rather than in the main API environment.
+mlx-audio==0.5.0
